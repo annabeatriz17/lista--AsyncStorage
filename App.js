@@ -84,26 +84,36 @@ export default function App() {
 const styles = StyleSheet.create({
   doisBotao: {
     flexDirection: "row",
-    gap: 10,
     marginTop: 10,
   },
   botao: {
     flex: 1,
     backgroundColor: "#a91b60",
     borderRadius: 5,
-    padding: 10,
+    paddingVertical: 6,
+    paddingHorizontal: 8,
     marginLeft: 0,
+    minWidth: 0,
+  },
+  botaoTexto: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 14,
   },
   limparTudoBotao: {
     flex: 1,
     backgroundColor: "#ff0080",
     borderRadius: 5,
-    padding: 10,
+    paddingVertical: 6,
+    paddingHorizontal: 8,
     marginLeft: 10,
+    minWidth: 0,
   },
   limparTudoTexto: {
     color: "#fff",
     fontWeight: "bold",
+    fontSize: 14,
+    textAlign: "center",
   },
   nenhumaTarefa: {
     textAlign: "center",
@@ -131,16 +141,7 @@ const styles = StyleSheet.create({
     borderColor: "#ccc",
     borderRadius: 5,
     padding: 10,
-  },
-  botao: {
-    backgroundColor: "#ff0080",
-    borderRadius: 5,
-    padding: 10,
-    marginLeft: 10,
-  },
-  botaoTexto: {
-    color: "#fff",
-    fontWeight: "bold",
+    marginRight: 10,
   },
   tarefaItem: {
     flexDirection: "row",
