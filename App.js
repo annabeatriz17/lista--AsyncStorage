@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   },
   botao: {
     flex: 1,
-    backgroundColor: "#a91b60",
+    backgroundColor: "#ff0080",
     borderRadius: 5,
     paddingVertical: 6,
     paddingHorizontal: 8,
